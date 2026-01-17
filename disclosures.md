@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Security Disclosures
+title: Disclosures
 ---
 
 # Security Disclosures
@@ -11,4 +11,4 @@ Below is a list of technical disclosures and vulnerability reports identified du
 * **[VRP #475170853: Latent State Hijacking in Gemini 2.5 Pro](./gemini_mark_vulnerability)**
     * *Status:* Triaged / Intended Behavior
     * *Summary:* Deterministic inference collapse triggered by Unicode U+203C.
-* *(Future reports will be added here)*
+
