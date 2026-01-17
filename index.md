@@ -1,3 +1,8 @@
+---
+layout: default
+title: Disclosure Page
+---
+
 <header class="w-full bg-white border-b border-gray-100 py-6 mb-12">
   <nav class="max-w-4xl mx-auto px-6 flex items-center justify-between">
     
