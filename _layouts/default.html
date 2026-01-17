@@ -9,19 +9,12 @@
 
   <header class="w-full bg-white border-b border-gray-100 py-6 mb-12">
     <nav class="max-w-4xl mx-auto px-6 flex items-center justify-between">
-      
-      <div class="text-xl font-bold tracking-tight text-gray-900">
-        <a href="{{ site.baseurl }}/" class="hover:text-gray-600 transition-colors">{{ site.title }}</a>
-      </div>
-
-      <div class="flex items-center space-x-8 text-sm font-medium uppercase tracking-widest text-gray-500">
         {% for link in site.navigation %}
           <a href="{{ site.baseurl }}{{ link.url }}" 
              class="transition-colors {% if link.highlight %}text-red-500 font-bold hover:text-red-700{% else %}hover:text-gray-900{% endif %}">
             {{ link.title }}
           </a>
         {% endfor %}
-      </div>
 
     </nav>
   </header>
