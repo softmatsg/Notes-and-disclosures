@@ -1,0 +1,24 @@
+# Site Settings
+title: Nikodem Tomczak
+description: Notes and disclosures on coding, technology and innovation
+url: "https://softmatsg.github.io" # Replace with your URL
+baseurl: "" # If your site is at /repo-name/, put that here
+
+# Navigation Menu Data
+# This list is used by your HTML layout to build the menu dynamically.
+navigation:
+  - title: Research
+    url: /
+  - title: Archive
+    url: /archive/
+  - title: Disclosure
+    url: /disclosure/
+    highlight: true # We'll use this to apply the red styling
+  - title: About
+    url: /about/
+
+# Build Settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
