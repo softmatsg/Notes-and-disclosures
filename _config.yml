@@ -9,13 +9,9 @@ baseurl: "" # If your site is at /repo-name/, put that here
 navigation:
   - title: Research
     url: /
-  - title: Archive
-    url: /archive/
-  - title: Disclosure
-    url: /disclosure/
+  - title: Disclosures
+    url: /disclosures/
     highlight: true # We'll use this to apply the red styling
-  - title: About
-    url: /about/
 
 # Build Settings
 theme: jekyll-theme-minimal
